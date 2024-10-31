@@ -1,0 +1,9 @@
+<?php
+	require_once('functions.php');
+	create_post_table();
+	create_comment_table();
+	insert_pivot_post_table();
+	repopulate_post_table();
+	repopulate_comment_table();
+	repopulate_pivot_table();
+?>
